@@ -1,9 +1,7 @@
 #include<stdio.h>
-int main()
-{
+int main(int argc, char *argv[]) {
     FILE *f;
-	char word;
-	scanf("%s", &str);
-	printf("%s\n", str);
+	f = fopen(argv[2], "w");
+	fprintf(f, "%s\n", argv[1]);
 	return 0;
 }
