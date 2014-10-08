@@ -6,7 +6,9 @@ int main(int argc, char *argv[]) {
  	while((ch=fgetc(f)) != EOF){
          	putchar(ch);
     }
+
 fclose(f);
+
 return 0;
 }
 
