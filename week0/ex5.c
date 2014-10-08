@@ -1,7 +1,6 @@
 #include <stdio.h>
  
-int main(int argc, char *argv[]) 
-{
+int main(int argc, char *argv[]) {
 	char ch;
 	FILE *src, *dst;
  
@@ -11,4 +10,5 @@ int main(int argc, char *argv[])
   	while( ( ch = fgetc(src) ) != EOF ) {
     	fputc(ch, dst);
 	}
+return 0;
 }
