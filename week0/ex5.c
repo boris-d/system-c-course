@@ -10,5 +10,8 @@ int main(int argc, char *argv[]) {
   	while( ( ch = fgetc(src) ) != EOF ) {
     	fputc(ch, dst);
 	}
+
+	fclose(src);
+	fclose(dst);
 return 0;
 }
